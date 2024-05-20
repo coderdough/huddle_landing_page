@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0px;
+    font-family: "Raleway", sans-serif;
+}
+color{
+    color:  hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    color: hsl(192, 100%, 9%);
+    color:  hsl(208, 11%, 55%);
+}
+.first{
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color:hsl(193, 100%, 96%) ;
+    height: 500px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-size: cover;
+    
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 20px;
+
+}
+.build_community_heading{
+    font-size: 36px;
+}
+
+.menu button{
+    border-radius: 10px;
+    width: 100px;
+    padding: 3px 0px;
+    background-color: white;
+    list-style-type: none;
+
+}
+.first_sp{
+    display: flex;
+    margin-top: -250px;
+    padding: 0px 100px;
+    gap: 50px;
+
+}
+.build,.screen{
+    width: 50%;
+}
+button{
+    text-decoration: none;
+    color: black;
+}
+.build{
+    margin-top: -80px;
+    /* font-size: 2px; */
+}
+.build_community_paragraph{
+    padding: 10px 0px;
+    color: gray;
+    font-size: 16px;
+    color: gray;
+    font-size: 16px;
+}
+.get_button{
+    border-radius: 30px;
+    /* width: 150px; */
+    padding: 10px 22px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 5px;
+    font-size: 8px;
+    border: none;
+    font-size: 14px;
+}
+.screen{
+    margin-top: -100px;
+
+}
+.screen_img{
+    height: 400px;
+    margin-top: -70px;
+}
+.second_sp, .metap{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border: 2px solid whitesmoke;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.grow{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.grow_img img{
+    height: 250px;
+    
+}
+.grow p{ 
+    color: pink;
+    padding:10px 0px ;
+}
+.family img{
+    height: 250px;
+}
+.metap{
+    display: flex;
+}
+.flow{
+    margin-top: 90px;
+    padding: 50px;
+    gap: 50px;
+
+}
+p{
+    margin-top: 10px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    margin-top:90px ;
+    margin-left: 50px;
+}
+.eyan img{
+    height: 250px;
+    /* padding-left: 20rem; */
+}
+.metap ,.last{
+    border: 2px solid whitesmoke;
+    padding:50px;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.community{
+    margin: auto;
+    border: 2px solid whitesmoke;
+    width: 40%;
+    padding: 30px 60px;
+    text-align: center;
+    margin-top: 90px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 700;
+    
+
+}
+.try button {
+    border: none;
+    text-decoration: none;
+
+}
+.ready{
+    margin-top:20px ;
+    padding: 20px;
+    border-radius: 30px;
+    background-color:hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    height: px;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    padding: 10% 5%;
+    z-index: -999;
+    position: relative;
+    margin-top: -7%;
+    /* width: 100%; */
+}
+.pre{
+    display: flex;
+    gap: 10px;
+}
+.phone{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+}
+.huddle_img{
+    color: blue;
+}
+.Lorem{
+    margin-top: 10px 0px;
+    line-height: 1.5;
+    font-size: 10px;
+
+}
+.pict{
+    height: 20px;
+    padding: 10px 10px;
+}
+.career, .About ul li{
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.grow h3{
+    font-weight: 700;
+}
+.grow p{
+    font-size: 10px;
+    color:gray;
+}
+.flow h3{
+    font-weight:700 ;
+}
+.flow p{
+    font-size: 10px;
+}
+.user h3{
+    font-weight: 700;
+}
+.user p{
+    font-size: 10px;
+}
+.community h2{
+    font-size: 20px;
+}
+.second_sp{
+ }
+ .footer .about ul li{
+    list-style-type: none;
+ }
+ @media(min-width: 768px){
+    .break{
+        display: none;
+    }
+ }
+
+@media(max-width: 767px){
+    .break_desktop{
+        display: none;
+    }
+    .second_sp{
+     }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px;
+        margin-top: 10px;
+    }
+    .logoo{
+        height: 20px;
+        font-family: "Raleway", sans-serif;
+    }
+    .first_sp,.second_sp,.metap,.last{
+        flex-direction: column;
+    }
+    .build,.screen{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .build{
+        margin-top: -20%;
+    text-align: center
+    }
+    .get_button{
+        padding: 12px 50px;
+    }
+    .screen_img{
+        margin-top: 15%;
+        /* height: 200px; */
+        
+    }
+    .second_sp, .metap, .last, .eyan_img{
+        text-align: center;
+    }
+    .grow_img{
+        order: 1;
+    }
+    .grow{
+        order: 2;
+    }
+    .metap{
+        /* height: 0; */
+    }
+    .eyan{
+        /* margin-top: 15%; */
+    }
+    .flow{
+        margin-top: 0;
+        padding: 0;
+    }
+    .eyan{
+        order: 1;
+
+    }
+    .user{
+        order: 2;
+    }
+    .eyan_img{
+
+    }
+    .eyan img{
+        padding-left: 0;
+    }
+    .last{
+        height: initial;
+    }
+    .community h2{
+        font-size: 38px;
+    }
+    .community{
+        width: 80%;
+    }     
+    .ready{
+        width: 50%;
+        font-size: 18px;
+    }
+    .footer_content{
+    flex-direction: column;
+    }
+    
+    .About,.career{
+        margin-left: 20px;
+    }
+    .career ul li{
+        list-style-type: none;
+    }
+    .lorem_paragraph,.phone_num,.email_address{
+     font-size: 20px;   
+    }
+    .career ul li ,.About ul li{
+        font-size: 20px; 
+    }
+    .about,.career{
+        margin-left: 20px;
+    }
+    .about ul li,.career ul li{
+        font-size: 18px;
+        padding: 7px;
+    }
+    .career{
+        margin-left: 10px;
+    }
+
+}
+@media (max-width: 425px){
+    .first{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .first_sp{
+        padding: 0px 24px;
+    }
+    .screen_img{
+        height: 260px;
+    }
+    .screen{
+        height: 260px;
+    }
+    .user,.grow{
+        margin-left: 0;
+    
+    }
+    .community,.about,.email,.career{
+    
+    }
+    .community h2{
+        font-size: 21px;
+    }
+    .community {
+        padding: 30px 20px;
+    }
+    .second_sp{
+        padding: 0;
+        margin-top: 20%;
+    }
+    .metap{
+        padding: 0;
+    }
+    .ready{
+        padding: 14px 4px;
+    }
+    .Lorem,.screen_img{
+
+    }
+    .metap ,.last{
+        padding: 0;
+    }
+    .huddle_img{
+        margin-top: 20%;
+    }
+    .community{
+        margin-top: ;
+    }
+}
+@media (max-width: 375px){
+    .get_button {
+        margin-top: 20px;
+    }
+    .screen_img,.last{
+        height: 240px;
+        border: 1px solid red;
+    }
+    .build_community_heading{
+        font-size: 31px;
+    }
+    .last{
+        border: 1px solid red;
+        margin-bottom: 40%;
+    }
+    .eyan img{
+        height: 226px;
+    }
+    .family img{
+        height: 214px;
+    }
+    .community{
+    margin-top: 10%;
+    }
+    .community h2{
+    font-size: 16px;
+    }
+    .community {
+        padding: 20px 10px;
+        margin-top: 10%;
+    }
+    .footer{
+        font-size: 14px;
+    }
+ 
+}
